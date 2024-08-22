@@ -72,7 +72,7 @@ span.option {
 }
 
 /* 2)question: y the width & height of content is not decresing in button: from were the width & height of content is coming*/
-/* 3)when content is 0 what does it means : when i keep button height:50%, increse padding */
+/* 3)when content is 0 what does it means : when i keep button height:50%, increase padding */
 
 footer button {
   border: 2px solid green;
