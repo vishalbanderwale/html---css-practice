@@ -1,0 +1,85 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cornsilk;
+}
+
+/* margin:auto : is for centering the div auto means it will horzontainly ceter the div equal spaces left and right side */
+/* it wont work for top and bottom margin:auto it depends on height */
+/* margin: auto only considers the horizontal axis by default. */
+/* 1) question is y it is not centered vertically when margin:auto */
+
+/* box model:when we give width to div: 100px the width will be taken by content only */
+/* width will be calculated as width given + padding + border */
+/* when we keep box-sizing:borer-box: it will include padding,border inside width only i.e width+padding+border */
+/* it will keep mentioned padding & border value same but decrese the width of content */
+/* in the above case we can increase the width of the div so that the width of content increase */
+/* as we increase padding of div the width & height(content area we call) of content will be decreased */
+
+article {
+  box-shadow: 1px 1px 4px 4px red;
+  width: 20%;
+  height: 70vh;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+header h1 {
+  text-transform: uppercase;
+  color: red;
+}
+
+header h2 {
+  font-size: 2rem;
+  color: darkcyan;
+}
+
+header h2 span {
+  font-size: 1.5rem;
+}
+
+section p {
+  color: chartreuse;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  text-transform: capitalize;
+}
+
+ul {
+  margin-top: 10px;
+  list-style: none;
+  font-size: 1.2rem;
+  color: darkblue;
+  margin-bottom: 20px;
+}
+
+ul li {
+  line-height: 2rem;
+  text-align: start;
+}
+
+span.option {
+  color: red;
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
+
+/* 2)question: y the width & height of content is not decresing in button: from were the width & height of content is coming*/
+/* 3)when content is 0 what does it means : when i keep button height:50%, increse padding */
+
+footer button {
+  border: 2px solid green;
+  border-radius: 5px;
+  padding: 0.6rem 2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: peru;
+  color: whitesmoke;
+}
