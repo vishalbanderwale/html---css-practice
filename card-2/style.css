@@ -15,11 +15,22 @@ padding:0;
 section {
   width: 480px;
   background-color: blue;
+  /* color: red; */
+  text-transform: capitalize;
 }
+
+/* currentcolor will take the color value of current div */
+/* color is inherited property */
+/* if we not mention color in current div it will check if Parent div has color property if yes it will apply */
+/* example if we dont mention in article it will take from section color:red */
+/* if parent dont have color property it will check till html root element and will stop  browser default color of html is: black */
+/* text-transform is inherited from parent */
+/* refer to chatgpt for inherited css propertys */
 
 article {
   width: 50%;
-  border: 6px solid red;
+  color: red;
+  border: 5px solid currentColor;
   padding: 0px 16px;
   margin: 0px 24px;
   box-sizing: border-box;
