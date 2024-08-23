@@ -1,0 +1,25 @@
+/* pesudo elements does not comes under universal selectors */
+/* they are not part of DOM elements */
+/* they are just part of elements used to style specific part of elements */
+/* *::after{
+margin:0;
+padding:0;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 480px;
+  background-color: blue;
+}
+
+article {
+  width: 50%;
+  border: 6px solid red;
+  padding: 0px 16px;
+  margin: 0px 24px;
+  box-sizing: border-box;
+}
