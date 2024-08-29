@@ -6,6 +6,7 @@
 
 body {
   background-color: cornsilk;
+  height: 100vh;
 }
 
 /* margin:auto : is for centering the div auto means it will horzontainly ceter the div equal spaces left and right side */
@@ -24,7 +25,7 @@ article {
   box-shadow: 1px 1px 4px 4px red;
   width: 20%;
   height: 70vh;
-  margin: 2rem auto;
+  margin: auto;
   text-align: center;
   padding: 20px;
   border-radius: 5px;
