@@ -6,7 +6,6 @@
 
 body {
   background-color: cornsilk;
-  height: 100vh;
 }
 
 /* margin:auto : is for centering the div auto means it will horzontainly ceter the div equal spaces left and right side */
@@ -21,11 +20,13 @@ body {
 /* in the above case we can increase the width of the div so that the width of content increase */
 /* as we increase padding of div the width & height(content area we call) of content will be decreased */
 
+/* for  centering div vertically we have to use display:flex height:100vh in body */
+
 article {
   box-shadow: 1px 1px 4px 4px red;
   width: 20%;
   height: 70vh;
-  margin: auto;
+  margin: 24px auto;
   text-align: center;
   padding: 20px;
   border-radius: 5px;
