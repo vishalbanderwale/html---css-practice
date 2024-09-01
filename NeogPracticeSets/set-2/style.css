@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+article {
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+img {
+  opacity: 1;
+}
+
+.data {
+  text-align: center;
+  position: relative;
+  top: -150px;
+  height: 200px;
+  width: 400px;
+  border-top: 1px solid rgba(255, 0, 0, 0.397);
+  background-color: rgba(245, 245, 245, 0.175);
+  opacity: 2;
+}
+
+.data h1 {
+  font-size: 36px;
+  color: antiquewhite;
+  text-transform: capitalize;
+}
+
+.data p {
+  font-size: 32px;
+  color: black;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
