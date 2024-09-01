@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+article {
+  box-shadow: 0px 4px 8px 0px red;
+  height: 40%;
+  border-radius: 5px;
+}
+
+section {
+  margin: 0 10px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 10px;
+  text-transform: capitalize;
+}
+
+button {
+  font-size: 1rem;
+  margin-top: 16px;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: blue;
+  color: antiquewhite;
+}
