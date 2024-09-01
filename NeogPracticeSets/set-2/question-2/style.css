@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+article {
+  border: 1px solid black;
+  width: 400px;
+  height: 350px;
+  background-color: rgba(155, 95, 95, 0.521);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+img {
+  object-fit: fill;
+}
+
+/* when we use flex child are treated as block level elements so anchor tag is taking full widht */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 180px;
+  margin-left: 10px;
+}
+
+.content h1 {
+  font-size: 2rem;
+}
+
+.content p {
+  font-size: 20px;
+  color: red;
+  text-transform: capitalize;
+}
+
+.link-container {
+  display: flex;
+  gap: 30px;
+}
+
+.link-container a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
