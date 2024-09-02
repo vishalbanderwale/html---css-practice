@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+article {
+  box-shadow: 2px 2px 8px 2px red;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+section {
+  width: 400px;
+  box-shadow: 2px 2px 8px 2px red;
+  min-height: 120px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+section h1 {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+section h1,
+h4,
+p {
+  margin-left: 5px;
+}
+
+section p {
+  margin-top: 10px;
+}
