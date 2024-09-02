@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+article {
+  box-shadow: 2px 2px 10px 0px rgb(188, 188, 193);
+  padding: 20px 60px;
+  background-color: rgba(95, 158, 160, 0.268);
+  border-radius: 5px;
+}
+
+section {
+  box-shadow: 2px 2px 8px 2px red;
+  width: 500px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+section h1,
+h3,
+p {
+  padding: 16px;
+}
+
+section h1,
+h3,
+p {
+  text-transform: capitalize;
+}
