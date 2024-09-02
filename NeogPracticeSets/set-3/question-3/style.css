@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+article {
+  box-shadow: 2px 2px 5px 2px gray;
+  padding: 20px 40px;
+  border-radius: 5px;
+  background-color: rgb(204, 194, 194);
+}
+
+img {
+  position: relative;
+  opacity: 0.5;
+}
+
+section h1,
+h3 {
+  color: antiquewhite;
+}
+
+section h1 {
+  position: absolute;
+  right: 250px;
+  bottom: 250px;
+  text-transform: capitalize;
+  font-size: 24px;
+}
+
+section h3 {
+  position: relative;
+  left: 320px;
+  bottom: 50px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+section {
+  box-shadow: 2px 2px 8px 2px red;
+  width: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+section p {
+  text-transform: capitalize;
+  font-size: 16px;
+  padding: 16px;
+}
