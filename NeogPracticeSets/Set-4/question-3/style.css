@@ -100,3 +100,7 @@ h5 {
   word-spacing: 5px;
   margin-left: 20px;
 }
+
+.price h2 {
+  margin-left: -24px;
+}
