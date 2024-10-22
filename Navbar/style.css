@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-container {
+  background-color: rgba(165, 158, 139, 0.945);
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+}
+
+a {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.navbar-container a:hover {
+  background-color: blue;
+}
