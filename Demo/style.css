@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* The issue you're encountering happens because 
+when display: flex is applied to a container, its child elements (like your h1) 
+will shrink to fit their content unless you explicitly specify a width.
+  The h1 will only take up as much space as its content requires,
+ which is why its border does not stretch across the container. */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  border: 2px solid black;
+}

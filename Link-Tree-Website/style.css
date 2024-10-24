@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./Images/background-image.jpg);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.information-container a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* As we are increasing h3 padding the width of profile container and h1 is also increasing
+hence we are placing the flex on it */
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.profile-container img {
+  border-radius: 50%;
+  border: 4px solid #4ab6e0;
+  margin-top: 1rem;
+}
+
+.profile-name h1 {
+  text-transform: capitalize;
+  border: 3px solid #1b7a9f;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  margin: 1.5rem;
+  border-radius: 4px;
+  background-color: #a1d9ef;
+}
+
+.profile-job h3 {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.8rem;
+  word-spacing: 5px;
+  border: 2px solid #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: #1b7a9f;
+}
+
+.information-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  width: 50vw;
+  gap: 30px;
+}
+
+.information-container a {
+  border: 3px solid #fff;
+  padding: 1rem;
+  width: 50%;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  border-radius: 4px;
+  color: #fff;
+  background-color: rgba(42, 169, 219, 0.6);
+}
+
+/* y div is not taking full width: because of  flex*/
+/* y padding is changing in h1 also when h3 is being changed */
+
+.alert p {
+  border: 2px solid #fff;
+  text-align: center;
+  display: inline;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding: 0.5rem 1rem;
+  word-spacing: 8px;
+  color: #fff;
+  background-color: #1b7a9f;
+  border-radius: 4px;
+}
+
+.alert {
+  margin-top: 4rem;
+}
+
+.input-container {
+  width: 100%; /*it is taking 100% of  width: 50vw; */
+}
+
+.input-container input {
+  border: 2px solid #fff;
+  width: 50%; /* 90 per of width:100% */
+  padding: 1rem;
+  background-color: rgba(42, 169, 219, 0.6);
+  border-radius: 4px;
+}
+
+.input-container input::placeholder {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.btn {
+  width: 100%;
+}
+
+.btn button {
+  border: 2px solid #fff;
+  width: 50%; /* 80 per of width:100% */
+  padding: 1rem;
+  background-color: #1b7a9f;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.icon-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 2rem;
+}
+
+.icon-container i {
+  border-color: #fff;
+}
