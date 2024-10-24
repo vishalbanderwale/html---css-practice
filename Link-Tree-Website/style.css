@@ -23,6 +23,10 @@ body {
   text-decoration: none;
 }
 
+.information-container a:hover {
+  color: black;
+}
+
 /* As we are increasing h3 padding the width of profile container and h1 is also increasing
 hence we are placing the flex on it */
 
